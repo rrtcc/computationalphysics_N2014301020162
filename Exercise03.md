@@ -2,7 +2,7 @@
 ##摘要
 ###编写一个python程序，在屏幕上用字母拼出自己的英文名字（本来想让大家拼自己的中文名字，但对有些同学来说不太公平^_^）
 摘于
-[蔡浩老师的Evernote]（https://www.evernote.com/shard/s140/sh/cc123466-b2ec-40e2-9273-c93a80724f22/46ac763efcd14039f0b78865e0831a06）
+[蔡浩老师]（https://www.evernote.com/shard/s140/sh/cc123466-b2ec-40e2-9273-c93a80724f22/46ac763efcd14039f0b78865e0831a06）
 [L1 和 L2 的代码](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter1/Code%20for%20level%201-2)
 第二次作业要求利用Python设计一个小程序，可以在屏幕上用字符拼出自己的名字
 ##背景介绍
