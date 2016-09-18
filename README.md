@@ -6,7 +6,7 @@
 
 #课程作业
 * [exercise01]()
-* [exercise02]()
+* [exercise02](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise3)
 * [exercise03]()
 * [exercise04]()
 * [exercise05]()
