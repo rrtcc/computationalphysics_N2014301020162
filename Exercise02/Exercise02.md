@@ -12,4 +12,4 @@
 ###代码的演示图片
  ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise02/exercise0301.png)
 ##结论
-本次作业中使用Python语言编写程序打出了自己的英文名字
+本次作业中使用Python语言编写程序打出了自己的英文名字，初步了解了python语言的奇妙之处
