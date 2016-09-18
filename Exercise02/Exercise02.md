@@ -9,3 +9,5 @@
 ###本次应该打出ALAN DUAN，字母应使用#表示在屏幕上，故使用print函数按行打印时，将一个字母分为8行，使其处于一个8×8的矩阵内便于表示
 以下是本次作业的代码
 [exercise03代码](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise02/%E4%BB%A3%E7%A0%81.py) 
+以及代码的演示图片
+ ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise02/exercise0301.png)
