@@ -14,3 +14,7 @@
  ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise02/zuoye.gif)
 ##结论
 本次作业中使用Python语言编写程序打出了自己的英文名字，初步了解了python语言的奇妙之处
+##致谢
+###[菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
+###[python基础教程至60课(基础)](http://wenku.baidu.com/view/006e19a0680203d8ce2f24b7.html)
+###[How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/runestone/static/thinkcspy/index.html)
