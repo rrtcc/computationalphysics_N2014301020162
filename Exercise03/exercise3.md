@@ -15,4 +15,5 @@
     import os
     i = os.system('cls')
 字符移动可以用在每行前面增加空格的方法实现
-###
+###于是可以在第二次作业的基础上实现这一功能
+[第三次作业的代码]（https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/daima.py）
