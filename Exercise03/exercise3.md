@@ -2,6 +2,7 @@
 ##一、摘要  
 ###作业要求（摘于老师的Evernote）
 -作业L1 在屏幕上让你的英文名字水平移动起来
+
 -作业L2 在80*80点阵上用字符拼出你想画的东西，并让它旋转起来，希望脑洞大开！（比如字符、火柴人、火箭等等）
 本次作业利用python语言实现了上述要求，以下是作业的代码
 
@@ -18,4 +19,4 @@
 ###于是可以在第二次作业的基础上实现这一功能
 [exercise03代码](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/daima.py)
 ###演示图片
-![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise02/exercise0301.png)
+![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/GIF.gif)
