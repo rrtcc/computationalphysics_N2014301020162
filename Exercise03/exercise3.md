@@ -23,6 +23,7 @@ level 1
 ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/gif%20exercise03.gif)
 
 level 2
+设计出火柴小人的旋转图后，利用3帧的GIF图片显示如下
 [exercise03代码](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/hhh.py)
 ###演示图片
 ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/xiaoren.gif)
