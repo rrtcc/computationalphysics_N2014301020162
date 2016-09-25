@@ -28,7 +28,7 @@ level 2
 ###演示图片
 ![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/xiaoren.gif)
 ##结论
-###在本次作业中，仿照电影的原理，利用python语言制作了两个简单的动画，相信随着以后的深入学习，我们可以通过python做更多更复杂的事情。
+###在本次作业中，仿照电影的原理，利用python语言制作了两个简单的动画，遗憾是level 2的有些简陋，相信随着以后的深入学习，我们可以通过python做更多更复杂的事情。
 
 ##致谢
 ###[菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
