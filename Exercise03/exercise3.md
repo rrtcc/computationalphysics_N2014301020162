@@ -17,6 +17,6 @@
     i = os.system('cls')
 字符移动可以用在每行前面增加空格的方法实现
 ###于是可以在第二次作业的基础上实现这一功能
-[exercise03代码](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/daima.py)
+[exercise03代码](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/exercise03%E4%BB%A3%E7%A0%81.py)
 ###演示图片
-![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/GIF.gif)
+![alt text](https://github.com/rrtcc/computationalphysics_N2014301020162/blob/master/Exercise03/gif%20exercise03.gif)
