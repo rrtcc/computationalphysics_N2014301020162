@@ -12,14 +12,7 @@
 ##正文
 ###根据老师的提示
 ####提示：可以使用如下语句把屏幕清理干净
-
-import os
-i = os.system('cls')
+    import os
+    i = os.system('cls')
 字符移动可以用在每行前面增加空格的方法实现
-
-print("      ###")
-print("     #   ")
-print("     #   ")
-print("     #   ")
-print("      ###")
 ###
