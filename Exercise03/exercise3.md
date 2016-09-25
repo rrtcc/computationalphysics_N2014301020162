@@ -33,6 +33,6 @@ level 2
 ##致谢
 ###[菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 [python基础教程至60课(基础)](http://wenku.baidu.com/view/006e19a0680203d8ce2f24b7.html)
-
+[How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/runestone/static/thinkcspy/index.html)
 
 
