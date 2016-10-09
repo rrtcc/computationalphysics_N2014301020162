@@ -18,11 +18,6 @@ class uranium_decay:
         self.dt = time_step
         self.time = time_of_duration
         self.nsteps = int(time_of_duration//time_step + 1)
-        print("Initial number of NA ->", number_of_NA)
-        print("Initial number of NB ->", number_of_NB)
-        print("Time constant ->", time_constant)
-        print("time step -> ", time_step)
-        print("total time -> ", time_of_duration)
     def calculate(self):
         for i in range(self.nsteps):
             tmpa = self.na_uranium[i] + (self.nb_uranium[i]-self.na_uranium[i])/self.tau * self.dt
