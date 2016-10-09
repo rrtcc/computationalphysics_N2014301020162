@@ -1,22 +1,41 @@
-na_0=float(raw_input('The initial number of A: '))
-nb_0=float(raw_input('The initial number of B: '))
-t_0=float(raw_input('The initial number of time: '))
-dt=float(raw_input('The time step is: '))
-na=[na_0]
-nb=[nb_0]
-t=[t_0]
-for i in range(200):
-    na_next=na[-1]+(nb[-1]-na[-1])*dt
-    nb_next=nb[-1]+(na[-1]-nb[-1])*dt
-    t_next=t[-1]+dt
-    na.append(na_next)
-    nb.append(nb_next)
-    t.append(t_next)
-nana=array(na)
-nbnb=array(nb)
-tt=array(t)
-plot(tt,nana,label='NA',color='b')
-plot(tt,nbnb,label='NB',color='r')
-grid(True)
-yticks([0,10,20,30,40,50,60,70,80,90,100])
-legend(loc='upper right',frameon=False)
+print('The initial number of A:')
+na=input()
+print('The initial number of B:')
+nb=print('The initial number of time:')
+print('time_costant')
+t=input()
+print('time_of_duration')
+tu=input()
+print('The time step: ')
+dt=input()
+import pylab as pl
+class uranium_decay:
+    def __init__(self, number_of_NA = na,number_of_NB = nb, time_constant = t, time_of_duration = tu, time_step = dt):
+        self.na_uranium = [number_of_NA]
+        self.nb_uranium = [number_of_NB]
+        self.t = [0]
+        self.tau = time_constant
+        self.dt = time_step
+        self.time = time_of_duration
+        self.nsteps = int(time_of_duration//time_step + 1)
+        print("Initial number of NA ->", number_of_NA)
+        print("Initial number of NB ->", number_of_NB)
+        print("Time constant ->", time_constant)
+        print("time step -> ", time_step)
+        print("total time -> ", time_of_duration)
+    def calculate(self):
+        for i in range(self.nsteps):
+            tmpa = self.na_uranium[i] + (self.nb_uranium[i]-self.na_uranium[i])/self.tau * self.dt
+            tmpb = self.nb_uranium[i] + (self.na_uranium[i]-self.nb_uranium[i])/self.tau * self.dt
+            self.nb_uranium.append(tmpb)
+            self.na_uranium.append(tmpa)
+            self.t.append(self.t[i] + self.dt)
+    def show_results(self):
+        pl.plot(self.t, self.na_uranium)
+        pl.plot(self.t, self.nb_uranium)
+        pl.xlabel('time ($s$)')
+        pl.ylabel('Number of Nuclei')
+        pl.show()
+a = uranium_decay()
+a.calculate()
+a.show_results()
