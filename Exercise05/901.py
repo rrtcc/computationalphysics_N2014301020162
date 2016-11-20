@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
-
 class billiard_rectangular:
     def __init__(self,x_0,y_0,vx_0,vy_0,N,dt):
         self.x_0 = x_0
@@ -9,7 +7,6 @@ class billiard_rectangular:
         self.vy_0 = vy_0
         self.N = N
         self.dt = dt
-    
     def motion_calculate(self):
         self.x = []
         self.y = []
@@ -41,7 +38,6 @@ class billiard_rectangular:
                 pass
             self.t.append(self.t[i - 1] + self.dt)
         return self.x, self.y
-    
     def correct(self,condition,x,y,vx,vy):
         vx_c = vx/100.0 
         vy_c = vy/100.0
@@ -60,8 +56,6 @@ class billiard_rectangular:
         plt.xlabel('x')
         plt.ylabel('y')
         plt.plot(self.x,self.y,'g')
-        #plt.savefig('chapter3_3.31.png',dpi = 144)
-        plt.title('Trajectory of a billiard on a square table')
         plt.show()
 A=billiard_rectangular(1,0,1,0.31,12000,0.01)
 A.motion_calculate()
