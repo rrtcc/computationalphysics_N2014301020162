@@ -14,6 +14,6 @@
 * [exercise07](https://www.zybuluo.com/rrtcc/note/550090)
 * [exercise08](https://www.zybuluo.com/rrtcc/note/565826)
 * [exercise09](https://www.zybuluo.com/rrtcc/note/573564)
-* [exercise10]
+* [exercise10](https://www.zybuluo.com/rrtcc/note/580740)
 * [exercise11]
 * [exercise12]
